@@ -1,0 +1,92 @@
+.bg-white {
+    background-color: white;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+  }
+  .content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .carrello {
+    flex: 0 0 50%;
+    background-color: pink;
+    overflow-y: auto;
+  }
+  .acquista {
+    flex: 1;
+    background-color: orange;
+    overflow-y: auto;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: greenyellow !important;
+  }
+.acquista .card {
+    margin: 0.5rem;
+}
+.elems-container {
+    display: flex;
+    width: 25rem;
+    height: 15rem;
+    background-color: white;
+    gap: 1rem;
+}
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    overflow-y: auto;
+}
+.row {
+    gap: 10px;
+    margin-top: 5px;
+}
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-container1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:3rem;
+}
+.cart-container2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:10rem;
+}
+h6 {
+    margin: 0;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -7rem;
+  z-index: 1000;
+  position: relative;
+}
+.modal {
+  position: relative;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 1000px) {
+  .dropdown-menu[data-bs-popper] {
+    position: revert;
+  }
+  .cart-container1, .cart-container2  {
+    gap: 1rem;
+  }
+}
+
+
