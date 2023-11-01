@@ -41,7 +41,7 @@ function updateCart() {
                 <div class="card-body">
                     <div class="cart-container">
                         <div class="cart-container1">
-                        <img style="width:3rem;" src='${elem.img}'/>
+                        <img style="width:3rem;cursor: pointer;" src='${elem.img}' onclick="window.location.href = '/dettagli/dettagli.html?id=${elem.id}'"/>
                         <h6 >${elem.title}</h6>
                         </div>
                         <div class="cart-container2">

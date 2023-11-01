@@ -1,0 +1,14 @@
+.my-card {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25rem;
+}
+h1 {
+    display: inline-block;
+    margin-right: 1rem;
+}
+h4 {
+    display: inline-block;
+}
