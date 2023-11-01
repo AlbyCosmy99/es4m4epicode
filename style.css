@@ -13,7 +13,7 @@
     flex-direction: column;
   }
   .carrello {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
     background-color: pink;
     overflow-y: auto;
   }
